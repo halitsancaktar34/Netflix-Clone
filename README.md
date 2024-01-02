@@ -8,6 +8,7 @@
         <li>Developed using the React library.</li>
         <li>State management handled efficiently with Redux, enabling a centralized store for the application's data.</li>
         <li>Utilizes Redux Thunk middleware for handling asynchronous actions within Redux.</li>
+        <li>Integrated Bootstrap for responsive and efficient styling across the application.</li>
         <li>Full responsive.</li>
         <li>Implements React Router for seamless navigation between different pages.</li>
         <li>Fetches data from a mock API or a backend server, simulating real-world scenarios.</li>

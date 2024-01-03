@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import { baseImageURL, options } from '../constants/costants';
 import Loading from './../components/Loading';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
+import millify from 'millify';
 
 axios.defaults.baseURL = 'https://api.themoviedb.org/3';
 
@@ -103,10 +104,10 @@ const DetailPage = () => {
             <p className="lead">{movie.overview}</p>
 
             <p>
-              <span className="fw-bold">Bütçe:</span> {movie.budget}
+              <span className="fw-bold">Bütçe:</span> {millify(movie.budget)}
             </p>
             <p>
-              <span className="fw-bold">Gelir:</span> {movie.revenue}
+              <span className="fw-bold">Gelir:</span> {millify(movie.revenue)}
             </p>
           </div>
 

@@ -1,8 +1,17 @@
-# React + Vite
+<h1>NETFLİX-CLONE</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>This project is a Netflix clone developed using React, Redux, and Redux Thunk. It simulates the core functionalities of the Netflix platform allowing users to browse, view details of movies and TV shows, and manage their watchlist.</p>
 
-Currently, two official plugins are available:
+<h2>Features</h2>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<ul>
+        <li>Developed using the React library.</li>
+        <li>State management handled efficiently with Redux, enabling a centralized store for the application's data.</li>
+        <li>Utilizes Redux Thunk middleware for handling asynchronous actions within Redux.</li>
+        <li>Integrated Bootstrap for responsive and efficient styling across the application.</li>
+        <li>Full responsive.</li>
+        <li>Implements React Router for seamless navigation between different pages.</li>
+        <li>Fetches data from a mock API or a backend server, simulating real-world scenarios.</li>
+</ul>
+
+<h2>Screen Gif</h2>

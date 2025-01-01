@@ -18,25 +18,23 @@ const MovieList = ({ genre }) => {
       .catch((err) => console.log(err));
   }, []);
 
-  // bu bileşen kategorinin filmleri için istek atıcak
-  // ve filmleri listeleyecek
   return (
     <div className="p-4">
       <h1 className="mb-3">{genre.name}</h1>
-      {/* slider alanı > haftaya kadar filmleri listelemeyi deneyin slider içerisnde */}
       <Splide
         options={{
-          gap: '10px', // elemanlar arası boşluk
-          pagination: false, // alttaki noktaları kaldır
-          autoWidth: true, // genişliklerine göre otomatik sığdır
+          gap: '10px', 
+          pagination: false, 
+          autoWidth: true, 
         }}
       >
         {movies?.map((movie) => (
           <SplideSlide key={movie.id}>
-            <Link to={`/detay/${movie.id}`}>
+            <Link to={`/detay/${movie.id}`} aria-label={movie.title}>
               <img
                 className="movie"
                 src={baseImageURL.concat(movie.poster_path)}
+                alt={movie.title}
               />
             </Link>
           </SplideSlide>

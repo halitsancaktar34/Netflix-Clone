@@ -12,6 +12,7 @@
         <li>Full responsive.</li>
         <li>Implements React Router for seamless navigation between different pages.</li>
         <li>Fetches data from a mock API or a backend server, simulating real-world scenarios.</li>
+        <li>Component testing ensures the reliability and performance of critical features.</li>
 </ul>
 
 <h2>Screen Gif</h2>
